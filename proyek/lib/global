@@ -1,0 +1,30 @@
+// // global_key_example.dart
+
+// import 'package:flutter/material.dart';
+
+// class MyWidget extends StatefulWidget {
+//   MyWidget({Key? key}) : super(key: key);
+
+//   @override
+//   MyWidgetState createState() => MyWidgetState();
+// }
+
+// class MyWidgetState extends State<MyWidget> {
+//   int _counter = 0;
+
+//   void incrementCounter() {
+//     setState(() {
+//       _counter++;
+//     });
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Center(
+//       child: Text(
+//         'Counter: $_counter',
+//         style: TextStyle(fontSize: 24),
+//       ),
+//     );
+//   }
+// }
